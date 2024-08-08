@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Software Developer Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">Portfolio</div>
+            <ul class="nav-links">
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+        </nav>
+    </header>
+
+    <section id="hero" class="hero">
+        <div class="hero-content">
+            <h1>Welcome to My Portfolio</h1>
+            <p>I'm Abish D P , a passionate Software Developer.</p>
+            <a href="#projects" class="btn btn-primary">View My Projects</a>
+            <a href="https://drive.google.com/file/d/1wJrq9FeRxwCQb4fPGupCGBpUIHdOiEUD/view?usp=drive_link" class="btn btn-secondary" target="_blank">Download Resume</a>
+        </div>
+    </section>
+
+    <section id="about" class="section about">
+        <div class="card">
+            <h2>About Me</h2>
+            <p>I'm a recent Computer Science graduate with a passion for web development. I love turning complex problems into simple, beautiful, and intuitive designs.</p>
+        </div>
+        <div class="card">
+            <h2>Skills</h2>
+            <div class="skills-container">
+                <div class="skill-item">
+                    <div class="skill-ring">
+                        <svg class="skill-ring-svg" width="100" height="100">
+                            <circle class="skill-ring-bg" cx="50" cy="50" r="45"></circle>
+                            <circle class="skill-ring-progress" cx="50" cy="50" r="45" data-skill="90"></circle>
+                        </svg>
+                        <div class="skill-text">
+                            <h3>HTML & CSS</h3>
+                            <p class="skill-percent">90%</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-ring">
+                        <svg class="skill-ring-svg" width="100" height="100">
+                            <circle class="skill-ring-bg" cx="50" cy="50" r="45"></circle>
+                            <circle class="skill-ring-progress" cx="50" cy="50" r="45" data-skill="85"></circle>
+                        </svg>
+                        <div class="skill-text">
+                            <h3>Python</h3>
+                            <p class="skill-percent">85%</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-ring">
+                        <svg class="skill-ring-svg" width="100" height="100">
+                            <circle class="skill-ring-bg" cx="50" cy="50" r="45"></circle>
+                            <circle class="skill-ring-progress" cx="50" cy="50" r="45" data-skill="80"></circle>
+                        </svg>
+                        <div class="skill-text">
+                            <h3>MySQL</h3>
+                            <p class="skill-percent">80%</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="education" class="section education">
+        <div class="card">
+            <h2>Education</h2>
+            <div class="education-item">
+                <h3>Bachelor of Technology in Information Teachnology</h3>
+                <p><strong>Cape Institute of Technology</strong> - Levingipuram, Tirunelvelli district</p>
+                <p>2019 - 2023</p>
+            </div>
+            <div class="education-item">
+                <h3>High School</h3>
+                <p><strong>Gnana Deepam Matriculation Higher Secondary School</strong> - Agastheeswaram, Kanyakumari district</p>
+                <p>2018 - 2019</p>
+            </div>
+            <div class="education-item">
+                <h3>SSLC</h3>
+                <p><strong>Gnana Deepam Matriculation Higher Secondary School</strong> - Agastheeswaram, Kanyakumari district</p>
+                <p>2016 - 2017</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="section projects">
+        <h2>Projects</h2>
+        <div class="projects-grid">
+            <div class="project-card">
+                <img src="assests/Project1.jpg" alt="Project 1">
+                <div class="project-info">
+                    <h3>Online movie ticket booking website</h3>
+                    <p>Created a online movie ticket booking website using Django framework, HTML & CSS and javascript for frontend and MySQL for backend</p>
+                    <a href="https://github.com/abish123456/website.git" target="_blank" class="btn btn-secondary">View Project</a>
+                </div>
+            </div>
+            <div class="project-card">
+                <img src="assests/Project2.jpg" alt="Project 2">
+                <div class="project-info">
+                    <h3>Simple Calculator</h3>
+                    <p>Leared javascript and made a simple calculator using HTML,CSS and java script</p>
+                    <a href="https://abish123456.github.io/calculator/" target="_blank" class="btn btn-secondary">View Project</a>
+                </div>
+            </div>
+            <!-- Add more project cards as needed -->
+        </div>
+    </section>
+
+    <section id="contact" class="section contact">
+        <h2>Contact Information</h2>
+        <div class="card">
+            <p><strong>Email:</strong> abish96888@gmail.com</p>
+            <p><strong>Phone:</strong> +91 6381823698</p>
+            <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/abish-d-p-2a3a9321b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app
+                " target="_blank">linkedin.com/in/yourusername</a></p>
+            <p><strong>GitHub:</strong> <a href="https://github.com/abish123456" target="_blank">github.com/abish123456</a></p>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Abish. All rights reserved.</p>
+    </footer>
+
+    <div id="lightbox" class="lightbox">
+        <img class="lightbox-img" src="" alt="Project Lightbox">
+        <span class="close">&times;</span>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
